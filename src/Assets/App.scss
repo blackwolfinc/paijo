@@ -1,0 +1,77 @@
+.container {
+
+    .header{
+            width: 90%;
+            background: url('./gambar.png');
+            padding: 2rem;
+            margin: 3rem;
+            text-align: center;
+            height: 50rem;
+
+    }
+
+    .Section {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+        .Card{
+            background-color: brown;
+            width: 2rem;
+            padding: 2rem;
+        }
+
+        .Section-2{
+            background-color: chartreuse !important;
+        }
+    }
+
+
+    .Body{
+        width: 100%;
+        margin-top: 4rem;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+
+
+        .Body-Anak{
+            height: 40rem;
+            width: 100%;
+            // background-color: chartreuse;
+            margin: 3rem;
+
+           
+            
+            .Body-2{
+                display: flex;
+                justify-content: center;
+
+            }
+
+            .Body-3{
+                display: flex;
+                justify-content: center;
+            }
+
+
+            
+            .Body-2-anak{
+                height: 50%;
+                background-color: red;
+                width: 100%;
+                margin: 2rem;
+            }
+
+        }
+
+
+        .Body-1{
+            display: flex;
+            background-color: royalblue;
+            height:40rem;
+            margin: 2rem;
+        }
+
+    }
+
+}
